@@ -1,0 +1,115 @@
+html, body {
+	height: 100%;
+}
+body {
+		background-image: url("https://newwallpaperdownload.com/wallpapers/Star-Wars-Wallpaper-On-Wallpaper-Hd-12.jpg");
+		font-size: 14pt;		
+		font-family: 'Michroma', sans-serif;
+		color: #a6a6a6;
+}
+h1 {
+	font-family: 'Michroma', sans-serif;
+	font-size: 28pt;
+	word-spacing: 10px;
+	
+}
+h4 {
+	margin: 0;
+	font-size: 24pt;
+}
+.container {
+	max-width: 1080px;
+}
+.headerHeroes {
+	color: #a6a6a6;
+}
+.headerDark {
+	color: #a6a6a6;
+}
+.navBG {
+	background-image: url("https://cdn.shutterstock.com/shutterstock/videos/13024982/thumb/1.jpg");
+}
+.icons {
+	height: 130px;
+	width: 100px;
+	margin-bottom: 2px;
+}
+.iconsArena {
+	height: 130px;
+	width: 100px;
+	margin-bottom: 2px;
+}
+.icons:hover {
+	opacity: .5;
+	cursor: pointer;
+}
+.iconsHeroes {
+	border: 4px inset white;
+}
+.iconsDark {
+	border: 4px inset white;
+}
+.textHeroes{
+	color: white;
+	min-width: 100px;
+}
+.textDark {
+	color: white;
+}
+.textNeutral {
+	color: white;
+}
+.divIcon {
+	font-size: 9pt;
+	height: 180px;
+	width: 146px;
+	border: 4px inset #d9d9d9;
+	margin: 0 auto;
+	margin-top: 5px;
+}
+.VS {
+	font-family: 'Michroma', sans-serif;
+	font-size: 30pt;
+	margin-top: 100px;
+}
+.arena {
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+.faded {
+	opacity: .2;
+}
+.statsTextHeroes {
+	font-size: 9pt;
+	text-align: right;
+}
+.statsTextDark {
+	font-size: 9pt;
+	text-align: left;
+}
+.floatRight {
+	float: right;
+}
+.floatLeft {
+	float: left;
+}
+.textStats {
+	font-size: 10pt;
+	margin: 0 5px 0 5px;
+}
+.skillsButton, #restartButton {
+	margin: 0 3px 5px 3px;
+	color: #a6a6a6;
+}
+#msgBox {
+	width: 100%;
+	height: 50px;
+	font-size: 10pt;
+	color: #a6a6a6;
+}
+@media screen and (max-width: 1200px) {	 
+	.textHeroes, .textDark {
+		font-size: 10pt;
+		color: #a6a6a6;
+	}
+}
